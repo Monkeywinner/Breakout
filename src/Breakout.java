@@ -58,7 +58,7 @@ public class Breakout extends GraphicsProgram {
             paddle.setLocation(me.getX() - paddle.getWidth()/2, paddle.getY());
         }
     }
-
+    //runs the main loop for the game
     private void gameLoop(){
         while(true){
             // move the ball
